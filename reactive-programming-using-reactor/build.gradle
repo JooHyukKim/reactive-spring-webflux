@@ -12,8 +12,7 @@ repositories {
 }
 
 dependencies {
-    implementation("io.projectreactor:reactor-core:3.4.0")
-
+    testCompile("org.assertj:assertj-core:3.11.1")
     //log - logback
     implementation("ch.qos.logback:logback-classic:1.2.3")
 
